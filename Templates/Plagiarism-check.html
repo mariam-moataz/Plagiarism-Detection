@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<title>Plagiarism Detector</title>
+
+<head>
+
+    <link rel="stylesheet" href="{{url_for('static',filename='bootstrap.min.css')}}">
+
+<link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<style>
+
+textarea {
+
+  font-size: 11px;
+}
+</style>
+<body>
+
+<h2 class="mt-5 text-white">Plagiarism Detector</h2>
+
+<form action="/report" method="POST">
+  <p class="mb-0 pb-0" >Please write your text here:</p><br>
+  <textarea  for="fname" name='text'   style ="font-size: 40px; "></textarea>
+  <br>
+  <button class="btn btn-primary text-white mt-2 mb-5" type="Submit" value="Send" >Generate Report</button>
+
+</form> 
+<h2 class="mb-4">Or you can Upload your file! </h2>
+<form class="mb-3" action = "/uploader" method = "POST" 
+         enctype = "multipart/form-data">
+         <input class="btn text-white mr-5 " type = "file" name = "file" accept=".doc,.docx,application/msword,application/pdf"/>
+        
+         <input class="btn btn-success text-white ml-5" type = "submit"/>
+      </form>   
+<p class=" font-weight-bold">You will be redirected once your report is generated.</p>
+
+<p class=" font-weight-bold">Time to generate report depends on length of text!</p>
+  <button class="btn btn-info text-white mt-2 mb-5" id="historyBtn">Check previous results</button>
+<script src="{{url_for('static',filename='history.js')}}"></script>
+  <script src="{{url_for('static',filename='jquery-3.5.1.min.js')}}"></script>
+<script src="{{url_for('static',filename='popper.min.js')}}"></script>
+<script src="{{url_for('static',filename='bootstrap.min.js')}}"></script>
+</body>
+</html>

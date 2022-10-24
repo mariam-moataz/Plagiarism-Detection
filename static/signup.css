@@ -1,0 +1,38 @@
+body{
+    background-color: #24353f;
+    text-align: center;
+}
+
+.signup{
+    box-shadow: 8px 5px 11px 11px;
+}
+.signup h1{
+    color:#17a2b8;
+}
+.signup p{
+    color: white;
+}
+.signup a{
+    text-decoration: none;
+    color: white;
+}
+.signup h5{
+    color: red;
+}
+a:hover{
+    text-decoration: underline;
+}
+.form-control{
+    background-color: transparent !important;
+    font-weight: 600;
+    color: white;
+}
+.btn{
+    color: #17a2b8;
+    border: 1px solid #17a2b8;
+    transition: all 0.3s;
+}
+.btn:hover {
+    color: white;
+background-color: #17a2b8;}
+

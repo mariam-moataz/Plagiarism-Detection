@@ -1,0 +1,37 @@
+body{
+    font-family: 'segoe ui light';
+    background-color: #24353f;
+    color: white;
+
+}
+.navbar{
+    background-color: #24353f !important;
+   
+}
+.navbar-brand {
+    color: white !important;
+
+}
+.start{
+    box-shadow: 8px 5px 11px 11px;
+}
+.start h1{
+    color:#17a2b8;
+}
+#goindex{
+    color: rgba(255,255,255,.5);
+    border: 1px solid yellow;
+    transition: all 0.3s;
+}
+#goindex:hover {
+background-color: yellow;
+color: white;
+}
+
+thead, tbody{
+    color: white;
+}
+h1{
+    color: red;
+    font-weight: 700;
+}

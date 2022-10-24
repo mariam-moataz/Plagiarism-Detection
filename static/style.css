@@ -1,0 +1,70 @@
+body{
+    background-color: #24353f;
+    text-align: center;
+    color: white;
+    
+}
+textarea{
+    resize: none;
+    width: 50%;
+    height: 40vh !important;
+}
+table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+tr{
+    border: 1px solid dodgerblue;
+}
+th{
+    border: 1px solid dodgerblue;
+            margin: 10px;
+   padding: 20px;
+   
+}
+td{
+    border: 1px solid dodgerblue;
+        margin: 10px;
+   padding: 10px;
+}
+thead{
+padding: 10px;
+}
+.login{
+    box-shadow: 8px 5px 11px 11px;
+}
+.login h1{
+    color:#17a2b8;
+}
+.login h5{
+    color: red;
+}
+.login p{
+    color: white;
+}
+.login a{
+    text-decoration: none;
+    color: white;
+}
+input{
+    border-radius: 0 ;
+}
+a:hover{
+    text-decoration: underline;
+}
+.form-control{
+    background-color: transparent !important;
+    font-weight: 600;
+    color: white;
+}
+.btn{
+    color: #17a2b8;
+    border: 1px solid #17a2b8;
+    transition: all 0.3s;
+}
+.btn:hover {
+    color: white;
+background-color: #17a2b8;}
+
